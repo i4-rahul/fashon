@@ -1,0 +1,149 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    
+
+}
+
+
+
+:root{
+   --grey-color:#838383;
+   --black-color:#070707;
+   --hover-color:#FC5F49;
+   --white-color:#fff;
+}
+/* html{
+    font-size: 62.5%;
+} */
+
+
+
+
+ /* scroll-bar */
+
+
+ ::-webkit-scrollbar{
+    width:0.625rem;
+ }
+
+ ::-webkit-scrollbar-track{
+    background:var(--grey-color)
+ }
+ ::-webkit-scrollbar-thumb{
+    background: var(--white-color);
+ }
+
+
+
+ h5 {
+    font-size:0.75rem;
+    font-weight: 600;
+    
+    
+}
+
+
+
+h3{
+    font-size: 1.188rem;
+    font-weight: 700;
+    line-height:1.25rem;
+    text-transform: uppercase;
+
+
+}
+
+h6{
+    font-size: 0.625rem;
+    font-weight: 600;
+    color:var(--grey-color);
+    line-height:0.9rem;
+    /* text-transform: uppercase; */
+
+}
+
+.wrapper{
+    padding-top:3.25rem;
+    padding-bottom: 3.25rem;
+}
+
+
+
+
+
+
+/* ========================================================================================================================================== */
+
+ul li {
+    font-size: 1.325rem;
+    color:var(--grey-color)
+}
+
+/* nav{
+    border-bottom: 1px solid var(--black-color);
+    
+} */
+
+
+
+.bg{
+    /* background-color:red; */
+    width:100%;
+    height:3.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg li{
+    display: inline-block;
+    /* line-height: 40px; */
+    padding:0.25rem 1.0rem;
+}
+
+.bg li a {
+    text-decoration: none;
+    color:var(--black-color);
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+
+.bg2{
+    /* background-color: green; */
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.bg2 li a{
+    color:var(--grey-color);
+    font-size: 0.625rem;
+    font-weight: 400;
+}
+
+
+.bg3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:6rem;
+    /* border-top: 1px solid gray; */
+    border-bottom: 1px solid gray;
+}
+.bg3 h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
